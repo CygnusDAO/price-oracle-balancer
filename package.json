@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "eslint": "^8.35.0",
+    "hardhat": "^2.12.7"
+  },
+  "dependencies": {
+    "@anders-t/ethers-ledger": "^1.0.4",
+    "@ethersproject/units": "^5.7.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "hardhat-contract-sizer": "^2.8.0"
+  }
+}
