@@ -11,7 +11,7 @@
 
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
-pragma solidity >=0.8.4;
+pragma solidity >=0.8.17;
 
 import {IERC20} from "./IERC20.sol";
 
@@ -37,3 +37,4 @@ interface IVault {
         bytes32 poolId
     ) external view returns (IERC20[] memory tokens, uint256[] memory balances, uint256 lastChangeBlock);
 }
+
