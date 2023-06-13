@@ -62,7 +62,7 @@ contract CygnusNebulaOracle is ICygnusNebulaOracle, ReentrancyGuard {
     /**
      *  @inheritdoc ICygnusNebulaOracle
      */
-    string public constant override name = "Cygnus-Nebula: Constant-Product LP Oracle";
+    string public constant override name = "Cygnus-Nebula: Balancer Weighted BPT Oracle";
 
     /**
      *  @inheritdoc ICygnusNebulaOracle
